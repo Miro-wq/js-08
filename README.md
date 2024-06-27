@@ -1,5 +1,8 @@
 # Code Modularity 
 
+## 🛠 Tools 
+[![My Skills](https://skillicons.dev/icons?i=nodejs,npm,webpack,js,html,css,)](https://skillicons.dev)
+
 ## Description 
 Homework practice project, using Node.js, Node Package Manager (npm), Code Modularity and Webpack to enhance code organization and performance.
 
@@ -16,10 +19,7 @@ Develop a script to save form field values (email and message) in local storage 
 
 Each exercise is implemented in separate HTML and JavaScript files (01-gallery.html, 01-gallery.js, 02-video.html, 02-video.js, 03-feedback.html, 03-feedback.js), focusing on practical application and skill development in web development techniques.
 
-## 🛠 Tools 
-[![My Skills](https://skillicons.dev/icons?i=nodejs,npm,webpack,js,html,css,)](https://skillicons.dev)
-
-## Requirements
+## Requirements:
 
 ## Exercise 1 - SimpleLightbox Library
 Complete this task in the files `01-gallery.html` and `01-gallery.js`. Break it down into multiple subtasks:
