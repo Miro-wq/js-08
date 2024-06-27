@@ -5,13 +5,13 @@ Homework practice project, using Node.js, Node Package Manager (npm), Code Modul
 
 This repository contains JavaScript exercises focused on enhancing skills in DOM manipulation, API integration, and event handling. Each exercise is structured into specific tasks:
 
-Exercise 1 - SimpleLightbox Library:
+- Exercise 1 - SimpleLightbox Library:
 Integrate the SimpleLightbox library using npm, refactor JavaScript code for previous themes, and ensure CSS connection.
 
-Exercise 2 - Video Player:
+- Exercise 2 - Video Player:
 Utilize the Vimeo player library via npm, track timeupdate events to save playback time in local storage, and resume playback from the saved position on page reload. Implement throttling using lodash.throttle.
 
-Exercise 3 - Feedback Form:
+- Exercise 3 - Feedback Form:
 Develop a script to save form field values (email and message) in local storage on input events. Populate form fields with saved data on page load. Upon form submission, clear local storage and display current email and message values in the console. Implement data storage and updates using lodash.throttle to occur no more than once every 500 milliseconds.
 
 Each exercise is implemented in separate HTML and JavaScript files (01-gallery.html, 01-gallery.js, 02-video.html, 02-video.js, 03-feedback.html, 03-feedback.js), focusing on practical application and skill development in web development techniques.
