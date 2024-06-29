@@ -4,7 +4,7 @@
 [![My Skills](https://skillicons.dev/icons?i=nodejs,npm,webpack,js,html,css,)](https://skillicons.dev)
 
 ## Description 
-Homework practice project, using Node.js, Node Package Manager (npm), Code Modularity and Webpack to enhance code organization and performance.
+Homework practice project, using Node Package Manager (npm), JavaScript, SimpleLightbox and Lodash libraries to enhance code organization and performance.
 
 This repository contains JavaScript exercises focused on enhancing skills in DOM manipulation, API integration, and event handling. Each exercise is structured into specific tasks:
 
