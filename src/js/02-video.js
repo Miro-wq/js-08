@@ -2,16 +2,16 @@
 import throttle from 'lodash.throttle';
 import Player from '@vimeo/player';
 
-const videoTime = 'video-current-time'
+const VIDEO_CURRENT_TIME_KEY = 'video-current-time'
 const iframe = document.querySelector('iframe');
 const player = new Player(iframe);
 
 const onPlay = function(data) {
-localStorage.setItem(videoTime, data.seconds)
+localStorage.setItem(VIDEO_CURRENT_TIME_KEY, data.seconds)
 };
 player.on('timeupdate', throttle(onPlay, 1000));
 
-player.setCurrentTime(JSON.parse(localStorage.getItem(videoTime)) || 0);
+player.setCurrentTime(JSON.parse(localStorage.getItem(VIDEO_CURRENT_TIME_KEY)) || 0);
 
 // setCurrentTime(seconds: number)
 // player.setCurrentTime(30.456).then(function(seconds) {
@@ -30,6 +30,14 @@ player.setCurrentTime(JSON.parse(localStorage.getItem(videoTime)) || 0);
 // https://www.npmjs.com/package/lodash.throttle
 
 // =========================DRAFT======================================
+
+//Parameters
+// key: This is a unique identifier that can be used later to retrieve a value from localStorage.
+// value: This is the data to be stored in the localStorage.
+// function populateStorage() {
+//     localStorage.setItem("bgcolor", "red");
+//localStorage.setItem(keyname, value)
+// localStorage.setItem("mytime", Date.now());
 
 // const onPlay = function(data) {
 //     // data is an object containing properties specific to that event
