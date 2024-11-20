@@ -1,43 +1,49 @@
-# Code Modularity 
+# ✨ Code Modularity ✨ 
 
-## 🛠 Tools 
-[![My Skills](https://skillicons.dev/icons?i=nodejs,npm,webpack,js,html,css,)](https://skillicons.dev)
+## 🛠 Tools used
+[![My Skills](https://skillicons.dev/icons?i=npm,webpack,js,html,css,)](https://skillicons.dev)
 
-## Description 
-Homework practice project, using Node Package Manager (npm), JavaScript, SimpleLightbox and Lodash libraries to enhance code organization and performance.
+![Description](https://img.shields.io/badge/Description-purple?style=for-the-badge)
+>Homework practice project, using Node Package Manager (npm), JavaScript, SimpleLightbox and Lodash libraries to enhance code organization and performance.
+>
+>This repository contains JavaScript exercises focused on enhancing skills in DOM manipulation, API integration, and event handling. Each exercise is structured into specific tasks:
+>
+> - Exercise 1 - SimpleLightbox Library:
+>Integrate the SimpleLightbox library using npm, refactor JavaScript code for previous themes, and ensure CSS connection.
+>
+> - Exercise 2 - Video Player:
+>Utilize the Vimeo player library via npm, track timeupdate events to save playback time in local storage, and resume playback from the saved position on page reload. Implement throttling using lodash.throttle.
+>
+> - Exercise 3 - Feedback Form:
+>Develop a script to save form field values (email and message) in local storage on input events. Populate form fields with saved data on page load. Upon form submission, clear local storage and display current email and message values in the console. Implement data >storage and updates using lodash.throttle to occur no more than once every 500 milliseconds.
+>
+>Each exercise is implemented in separate HTML and JavaScript files (01-gallery.html, 01-gallery.js, 02-video.html, 02-video.js, 03-feedback.html, 03-feedback.js), focusing on practical application and skill development in web development techniques.
+>
 
-This repository contains JavaScript exercises focused on enhancing skills in DOM manipulation, API integration, and event handling. Each exercise is structured into specific tasks:
+![Requirements](https://img.shields.io/badge/Requirements-purple?style=for-the-badge)
 
-- Exercise 1 - SimpleLightbox Library:
-Integrate the SimpleLightbox library using npm, refactor JavaScript code for previous themes, and ensure CSS connection.
+![Exercise 1 ](https://img.shields.io/badge/Exercise%201-purple?style=for-the-badge)
+> - SimpleLightbox Library
+>
 
-- Exercise 2 - Video Player:
-Utilize the Vimeo player library via npm, track timeupdate events to save playback time in local storage, and resume playback from the saved position on page reload. Implement throttling using lodash.throttle.
-
-- Exercise 3 - Feedback Form:
-Develop a script to save form field values (email and message) in local storage on input events. Populate form fields with saved data on page load. Upon form submission, clear local storage and display current email and message values in the console. Implement data storage and updates using lodash.throttle to occur no more than once every 500 milliseconds.
-
-Each exercise is implemented in separate HTML and JavaScript files (01-gallery.html, 01-gallery.js, 02-video.html, 02-video.js, 03-feedback.html, 03-feedback.js), focusing on practical application and skill development in web development techniques.
-
-## Requirements:
-
-## Exercise 1 - SimpleLightbox Library
 Complete this task in the files `01-gallery.html` and `01-gallery.js`. Break it down into multiple subtasks:
 
 - Add the SimpleLightbox library as a project dependency using npm (CDN links are no longer needed).
 - Use the refactored JavaScript code from the previous assignment. Ensure the library is installed via npm (using import/export syntax).
 - To link the CSS code to the project, add another import in addition to the one described in the documentation.
 
-```
+```js
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 ```
 
-## Exercise 2 - Video Player
+![Exercise 2](https://img.shields.io/badge/Exercise%202-purple?style=for-the-badge)
+> - Video Player
+>
 
 In the HTML, there is an `<iframe>` for the Vimeo player. Write a script that will save the current playback time of the video in local storage, and when the page is reloaded, it will resume playing the video from that point.
 
-```
+```html
 <iframe
   id="vimeo-player"
   src="https://player.vimeo.com/video/236203659"
@@ -60,11 +66,13 @@ Complete this task in the files `02-video.html` and `02-video.js`. Break it down
 - Add the `lodash.throttle` library to the project to ensure the playback time is updated in storage no more than once per second.
 
 
-## Exercise 3 - Feedback Form
+![Exercise 3](https://img.shields.io/badge/Exercise%203-purple?style=for-the-badge)
+> - Feedback Form
+>
 
 The HTML code includes a form structure. Write a script that will save the values of the form fields in local storage whenever the user enters a character.
 
-```
+```html
 <form class="feedback-form" autocomplete="off">
   <label>
     Email
